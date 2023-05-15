@@ -15,7 +15,7 @@ To use this microservice, you need to install the gspread library and have a Goo
 To use this microservice, run the script and ensure that the correct Google Sheet names are provided in the script. The script will read the data from the first sheet of the Microservice Google Sheet and perform statistical analysis on the two columns of data. It will then update the Result Google Sheet with the analysis results.
 
 ## UML Diagram
-<img src="https://github.com/nelkalm/correlateit_st/blob/master/MicroserviceUML.png"
+<img src="[https://github.com/nelkalm/correlateit_st/blob/master/MicroserviceUML.png](https://raw.githubusercontent.com/nelkalm/CorrelateItMicroservice/main/MicroserviceUML.png)"
      alt="UML Diagram"
      style="float: left; margin-right: 10px;" />
 
