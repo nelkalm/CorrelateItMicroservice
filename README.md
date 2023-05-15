@@ -3,19 +3,16 @@
 ## Microservice README
 This microservice connects to a Google Sheet using the gspread library and reads data from two columns in the sheet. It then converts the data from string to float, performs statistical analysis on the data, and updates another sheet with the results.
 
-## Setup
+## Usage
 To use this microservice, you need to install the gspread library and have a Google Sheet with the required format.
 
 1. Install the gspread library by running `pip install gspread`.
-2. Create a Google Cloud Platform (GCP) project, enable the Google Drive API, and create a service account with access to the Google Sheet.
-3. Share the Google Sheet with the email associated with the service account.
-4. Update the filename in `gc = gspread.service_account(filename='.config/credentials.json')` with the path to your service account credentials file.
-
-## Usage
-To use this microservice, run the script and ensure that the correct Google Sheet names are provided in the script. The script will read the data from the first sheet of the Microservice Google Sheet and perform statistical analysis on the two columns of data. It will then update the Result Google Sheet with the analysis results.
+2. Input data labels, data rows below the first row in this Google Sheet: https://docs.google.com/spreadsheets/d/1iGdPlx8LXma619GqyxkQMlU_-Q0l2x36LFYz7Tb94vw/edit#gid=0. The two data rows must have equal number of rows.
+3. Run ``python3 gsconnector.py`` in the terminal.
+4. Go to the result Google Sheet here: https://docs.google.com/spreadsheets/d/1u_s9FH4_FvHh2-qAYHbJ8vWTh0pTCm4LXh-h0nCcL_o/edit#gid=0. The results should be populated in various column headers.
 
 ## UML Diagram
-<img src="[https://github.com/nelkalm/correlateit_st/blob/master/MicroserviceUML.png](https://raw.githubusercontent.com/nelkalm/CorrelateItMicroservice/main/MicroserviceUML.png)"
+<img src="https://github.com/nelkalm/correlateit_st/blob/master/MicroserviceUML.png"
      alt="UML Diagram"
      style="float: left; margin-right: 10px;" />
 
