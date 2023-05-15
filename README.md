@@ -12,7 +12,7 @@ To use this microservice, you need to install the gspread library and have a Goo
 4. Go to the result Google Sheet here: https://docs.google.com/spreadsheets/d/1u_s9FH4_FvHh2-qAYHbJ8vWTh0pTCm4LXh-h0nCcL_o/edit#gid=0. The results should be populated in various column headers.
 
 ## UML Diagram
-<img src="https://github.com/nelkalm/correlateit_st/blob/master/MicroserviceUML.png"
+<img src="MicroserviceUML.png"
      alt="UML Diagram"
      style="float: left; margin-right: 10px;" />
 
